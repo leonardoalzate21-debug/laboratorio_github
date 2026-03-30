@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Banco Seguro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+        }
+
+        header {
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #00b4d8;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #023e8a;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-left: 6px solid #00b4d8;
+        }
+
+        .card:nth-child(2) {
+            border-left: 6px solid #2ecc71;
+        }
+
+        .card:nth-child(3) {
+            border-left: 6px solid #ff6b6b;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background: linear-gradient(90deg, #00b4d8, #2ecc71);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: linear-gradient(90deg, #0096c7, #27ae60);
+        }
+
+        footer {
+            background-color: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Banco Seguro</h1>
+    <p>Tu dinero en buenas manos</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Cuentas</a>
+    <a href="#">Préstamos</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h2>Bienvenido</h2>
+        <p>Ofrecemos soluciones financieras modernas, seguras y rápidas para ti.</p>
+        <a href="#" class="btn">Abrir cuenta</a>
+    </div>
+
+    <div class="card">
+        <h2>Nuestros servicios</h2>
+        <ul>
+            <li>Cuentas de ahorro</li>
+            <li>Tarjetas de crédito</li>
+            <li>Préstamos personales</li>
+            <li>Banca digital</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Contacto</h2>
+        <p>Email: contacto@bancoseguro.com</p>
+        <p>Teléfono: +57 300 000 0000</p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Banco Seguro</p>
+</footer>
+
+</body>
+</html>
