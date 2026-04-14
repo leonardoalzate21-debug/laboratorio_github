@@ -151,4 +151,11 @@ Para implementar un merge a la rama main mediante pull request, se requiere trae
 Luego de haber realizado el push directo a la rama dev en github hacer los siguientes pasos
 - ir a Pull Requests ![Paso 7-1](images/paso7-1.png)
 - Seleccionar New Pull request ![Paso 7-2](images/paso7-2.png)
-- Seleccionar la rama dev ![Paso 7-3](images/paso7-3.png)
+- Seleccionar la rama dev ![Paso 7-3](images/paso7-3.png) 
+- Ahora se evidencia el ultimo commit realizado en a la rama y se le da al boton de create pull request ![Paso 7-4](images/paso7-4.png) 
+- Como se puede apreciar en el titulo de la creacion del pull request aparece el valor del ultimo commit ![Paso 7-5](images/paso7-5.png) 
+### Importante
+
+Aveces no aparece el nombre del ultimo commit pero siempre que se crea un pull request toma el ultimo commit realizado a la rama
+
+- Cuando se ejecuta el PR, hay que esperar por aprobacion de un tercero para poder aplicar los cambios a merge, en este caso vamos a auto-aprobar el PR por este caso de laboratorio ![Paso 7-6](images/paso7-6.png)
